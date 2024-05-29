@@ -56,7 +56,6 @@ public class CreateUserActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         // Set the selected country to the TextView
                         countryTextView.setText(countries[which]);
-                        dialog.dismiss(); // Close the dialog
                     }
                 });
 
